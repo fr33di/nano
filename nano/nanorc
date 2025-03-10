@@ -1,0 +1,53 @@
+# Habilitar el resaltado de sintaxis
+#include /usr/share/nano/*.nanorc
+
+# Habilitar la numeración de líneas
+set linenumbers
+
+# Establecer la pestaña en 4 espacios
+set tabsize 4
+
+# Usar espacios en lugar de tabulaciones
+set tabstospaces
+
+# Habilitar el ajuste de línea (wrap text)
+set mouse
+set softwrap
+
+set multibuffer
+
+# Mostrar al final del archivo
+#set finalnewline
+
+# Habilitar la barra de desplazamiento suave
+#set smooth
+
+# Hacer las teclas Home y End saltar al principio y final de una línea
+set jumpyscrolling
+
+# Hacer que las teclas de flecha se desplacen por los márgenes
+#set nowrap
+
+# Habilitar el guardado automático de archivos modificados antes de salir
+#set backup
+
+# Evitar el auto-indentado
+#set noautoindent
+
+# Resaltado de búsqueda
+set boldtext
+
+# Ocultar los comandos de ayuda
+set nohelp
+
+
+# No mostrar el número de línea y columna del cursor constantemente
+#unset constantshow
+set constantshow
+
+
+set statuscolor white,cyan
+set titlecolor brightwhite,blue
+set statuscolor brightwhite,magenta
+set numbercolor cyan
+set selectedcolor black,yellow
